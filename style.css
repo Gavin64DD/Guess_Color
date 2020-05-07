@@ -1,23 +1,43 @@
-<head>
+.colourButton{
+    background-color: rgb(255,0,0);
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    box-shadow: none;
+    margin: 10px;
+}
 
-    <link rel="stylesheet" href="style.css">
+#buttonWrapper{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+}
 
-</head>
+h1{
+    text-align: center;
+}
 
-<body>
-    <h1>Guess the colour!</h1>
-    <h2 id="colourValue"></h2>
-    <div id="buttonWrapper">
-        <button class="colourButton"></button>
-        <button class="colourButton"></button>
-        <button class="colourButton"></button>
-        <button class="colourButton"></button>
-        <button class="colourButton"></button>
-        <button class="colourButton"></button>
-    </div>
-    <h2 id="answer"></h2>
+#colourValue{
+    margin: 0 auto;
+    text-align: center;
+}
 
-    <div id="reset"><button id="resetButton">Reset game</button></div>
+#answer{
+    margin: 0 auto;
+    text-align: center;
+}
 
-    <script src="script.js"></script>
-</body>
+#reset{
+    margin: 0 auto;
+    text-align: center;
+}
+
+#reset-button{
+    padding: 10px;
+    background: none;
+    border: 1px solid #000;
+    margin: 10px;
+}
